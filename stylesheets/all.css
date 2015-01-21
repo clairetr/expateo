@@ -3,6 +3,10 @@
  * Fonts
  * ------------------------------------- */
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@font-face {
+  font-family: "Brandonlight";
+  src: url("../fonts/FontF.eot");
+  src: url("../fonts/FontFile.eot?#iefix") format("embedded-opentype"), url("../fonts/FontFile.woff") format("woff"), url("../fonts/FontFile.ttf") format("truetype"); }
 /* -------------------------------------
  * Colors
  * ------------------------------------- */
@@ -1161,7 +1165,7 @@ body {
   font-size: 16px;
   line-height: 1.4;
   color: #333333;
-  background-color: #eeeeee; }
+  background-color: #F2F2F2; }
 
 /* line 36, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 input,
@@ -1208,7 +1212,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.4;
-  background-color: #eeeeee;
+  background-color: #F2F2F2;
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1252,7 +1256,7 @@ hr {
 /* line 9, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: "Montserrat", "sans-serif";
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -2617,7 +2621,7 @@ th {
     border-top: 2px solid #ddd; }
   /* line 62, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_tables.scss */
   .table .table {
-    background-color: #eeeeee; }
+    background-color: #F2F2F2; }
 
 /* line 75, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_tables.scss */
 .table-condensed > thead > tr > th,
@@ -2871,7 +2875,7 @@ output {
   padding-top: 7px;
   font-size: 16px;
   line-height: 1.4;
-  color: #555555; }
+  color: #384047; }
 
 /* line 115, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_forms.scss */
 .form-control {
@@ -2881,7 +2885,7 @@ output {
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.4;
-  color: #555555;
+  color: #384047;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -3436,23 +3440,23 @@ select[multiple].input-lg,
 /* line 71, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #FDB631;
-  border-color: #fdad18; }
+  background-color: #6452BD;
+  border-color: #5644b2; }
   /* line 11, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info:hover, .btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #f9a302;
-    border-color: #d58c02; }
+    background-color: #4d3d9f;
+    border-color: #413385; }
   /* line 21, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
-    background-color: #FDB631;
-    border-color: #fdad18; }
+    background-color: #6452BD;
+    border-color: #5644b2; }
   /* line 40, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-info .badge {
-    color: #FDB631;
+    color: #6452BD;
     background-color: #fff; }
 
 /* line 75, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3988,7 +3992,7 @@ tbody.collapse.in {
   font-size: 16px;
   font-weight: normal;
   line-height: 1;
-  color: #555555;
+  color: #384047;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #ccc;
@@ -4131,8 +4135,8 @@ tbody.collapse.in {
         border-color: #eeeeee #eeeeee #ddd; }
     /* line 96, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-      color: #555555;
-      background-color: #eeeeee;
+      color: #384047;
+      background-color: #F2F2F2;
       border: 1px solid #ddd;
       border-bottom-color: transparent;
       cursor: default; }
@@ -4207,7 +4211,7 @@ tbody.collapse.in {
     .nav-tabs.nav-justified > .active > a:hover,
     .nav-tabs-justified > .active > a:focus,
     .nav-tabs.nav-justified > .active > a:focus {
-      border-bottom-color: #eeeeee; } }
+      border-bottom-color: #F2F2F2; } }
 
 /* line 224, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
@@ -4937,10 +4941,10 @@ a.label:hover, a.label:focus {
 
 /* line 56, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
-  background-color: #FDB631; }
+  background-color: #6452BD; }
   /* line 7, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-info[href]:hover, .label-info[href]:focus {
-    background-color: #f9a302; }
+    background-color: #4d3d9f; }
 
 /* line 60, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
@@ -5044,7 +5048,7 @@ a.badge:hover, a.badge:focus {
   padding: 4px;
   margin-bottom: 22px;
   line-height: 1.4;
-  background-color: #eeeeee;
+  background-color: #F2F2F2;
   border: 1px solid #ddd;
   border-radius: 2px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -5212,7 +5216,7 @@ a.thumbnail.active {
 
 /* line 77, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-info {
-  background-color: #FDB631; }
+  background-color: #6452BD; }
   /* line 7, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-info {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -8901,30 +8905,31 @@ button.close {
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
-/* line 5, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_base.css.scss */
-h1, h2, h3, h4 {
-  font-family: 'Montserrat', sans-serif; }
-
-/* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+/* line 2, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
 #footer {
-  background: #222222;
-  padding: 30px 0;
-  color: #eeeeee; }
-  /* line 5, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
-  #footer p {
-    margin-top: 17px; }
-  /* line 8, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
-  #footer ul {
-    margin-top: 10px; }
-  /* line 11, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+  background-color: #E3E4DC;
+  color: #384047;
+  text-align: center;
+  height: 100px;
+  padding-top: 40px;
+  font-family: proximanova-regular;
+  font-weight: 100;
+  font-size: 15px;
+  opacity: 1px; }
+  /* line 12, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
   #footer a {
-    color: #eeeeee;
-    font-size: 30px;
-    letter-spacing: 20px;
-    transition: color 0.5s ease; }
-    /* line 16, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
-    #footer a:hover {
-      color: #FDB631; }
+    text-decoration: none;
+    color: #384047;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0,3s ease; }
+  /* line 19, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+  #footer a:hover {
+    color: #222222;
+    font-weight: 500; }
+  /* line 23, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+  #footer li {
+    width: 300px; }
 
 /* -------------------------------------
  * Colors & Fonts
@@ -8959,8 +8964,8 @@ h1, h2, h3, h4 {
   .navbar-wagon .navbar-nav > .open > a:focus {
     color: white;
     line-height: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: transparent;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -8975,15 +8980,15 @@ h1, h2, h3, h4 {
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px; }
+    padding-top: 10px;
+    padding-bottom: 10px; }
   /* line 78, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
     color: white;
     border-radius: 2px;
-    margin-top: 10px;
+    margin-top: 15px;
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
@@ -9048,6 +9053,43 @@ h1, h2, h3, h4 {
 .padded {
   padding-top: 10em;
   padding-bottom: 10em; }
+
+/* line 10, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_utilities.css.scss */
+.bg-purple {
+  background-color: #6452BD;
+  color: white; }
+
+/* line 2, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_equipe.css.scss */
+#team img {
+  width: 30%;
+  min-width: 200px; }
+/* line 6, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_equipe.css.scss */
+#team p {
+  padding-top: 20px;
+  font-weight: 600;
+  font-size: 24px; }
+
+/* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+#banner {
+  background: url("../images/background.png");
+  background-size: cover;
+  color: white;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 50px; }
+  /* line 8, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  #banner h1 {
+    font-family: "Brandonlight";
+    font-size: 70px;
+    text-shadow: 1px 1px 2px #727272; }
+  /* line 13, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  #banner p {
+    font-size: 25px;
+    font-weight: 300; }
+
+/* line 20, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+#infos h2 {
+  font-size: 30px; }
 
 /*
 ==============================================
