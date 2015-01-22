@@ -3,18 +3,38 @@
  * ------------------------------------- */
 // Google fonts
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
-$open-sans: "Open Sans", "Helvetica", "sans-serif";
-$montserrat: "Montserrat", "sans-serif";
+$base-font: "Open Sans", "Helvetica", "sans-serif";
+$header-font: "Proximabold";
 
 // Local fonts (uncomment following lines)
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+  font-family: "Brandonlight";
+  src: font-url('Brandonlight.eot');
+  src: font-url('Brandonlight?#iefix') format('embedded-opentype'),
+       font-url('Brandonlight.woff') format('woff'),
+       font-url('Brandonlight.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Proximabold";
+  src: font-url('proxima_nova/Proxima_Nova_Bold.eot');
+  src: font-url('proxima_nova/Proxima_Nova_Bold.eot?#iefix') format('embedded-opentype'),
+       font-url('proxima_nova/Proxima_Nova_Bold.woff') format('woff'),
+       font-url('proxima_nova/Proxima_Nova_Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Proxima";
+  font-weight: regular;
+  src: font-url('proxima_nova/Proxima_Nova_Light.eot');
+  src: font-url('proxima_nova/Proxima_Nova_Light.eot?#iefix') format('embedded-opentype'),
+       font-url('proxima_nova/Proxima_Nova_Light.woff') format('woff'),
+       font-url('proxima_nova/Proxima_Nova_Light.ttf') format('truetype')
+}
+
+$Proxima: "Proxima";
+$Proximabold:"Proximabold";
+$Brandonlight: "Brandonlight";
 
 // Font-size and line-height
 $base-size: 16px;
@@ -27,13 +47,14 @@ $base-height: 1.4;
 $red: #EE5F5B;
 $blue: #469AE0;
 $yellow: #FDB631;
-$orange: #E67E22;
+$orange: #ED5A25;
 $green: #32B796;
 $purple: #6452BD;
+$black: lighten(#1A1A1A, 3%);
 
 // Gray scale
-$gray-darker:  lighten(#000, 13.5%); // #222
-$gray-dark:    lighten(#000, 20%);   // #333
-$gray:         lighten(#000, 33.5%); // #555
-$gray-light:   lighten(#000, 46.7%); // #777
-$gray-lighter: lighten(#000, 93.5%); // #eee
+$gray-darker:  lighten(#494949, 13.5%); // #222
+$gray-dark:    lighten(#494949, 20%);   // #333
+$gray:         #494949; // #555
+$gray-light:   lighten(#494949, 46.7%); // #777
+$gray-lighter: lighten(#494949, 93.5%); // #eee

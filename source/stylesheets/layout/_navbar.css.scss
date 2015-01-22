@@ -1,16 +1,16 @@
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
-$navbar-color: white;
-$navbar-hover-color: $yellow;
-$navbar-font-family: $montserrat;
-$navbar-bg: transparent;
+$navbar-color: #1A1A1A;
+$navbar-hover-color: $orange;
+$navbar-font-family: $header-font;
+$navbar-bg: white;
 
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
 $navbar-height: 50px;
-$navbar-vertical-padding: 5px;
+$navbar-vertical-padding: 10px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
 $navbar-border-bottom-color: grey;
@@ -34,6 +34,10 @@ $navbar-profile-border-width: 2px;
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
+
+.navbar-transparent-white {
+  background: rgba(255,255,255,0.8);
+}
 .navbar-wagon{
   background: $navbar-bg;
   font-family: $navbar-font-family;
@@ -132,6 +136,8 @@ $navbar-profile-border-width: 2px;
 /* -------------------------------------
  * Navbar profile picture
  * ------------------------------------- */
+
+
 
 @media screen and (max-width: 768px) {
   .navbar-brand img, .navbar-brand svg, .navbar-brand object{

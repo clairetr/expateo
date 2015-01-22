@@ -1,6 +1,23 @@
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
-h1, h2, h3, h4{
-  font-family: 'Montserrat', sans-serif;
-}
+
+// @media (min width: 700px) {
+//   pour mettre des comportements responsive, ici
+//   à partir d'un écran de 700 px)
+// }
+h2 {
+    font-size: 30px;
+    font-family: $Proxima;
+    font-weight: regular;
+    margin-bottom: 25px;
+  }
+h2 span {
+    border-bottom: solid 2px $orange;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-family: $Proxima;
+    font-weight: regular;
+  }

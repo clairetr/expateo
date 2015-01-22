@@ -1,0 +1,23 @@
+---
+title: Actualités d'Expateo
+---
+
+<div class="text-center bg-black padded">
+
+  <h2><span>Notre actualité</span></h2>
+
+  <div class="container">
+    <div class="row">
+      <% data.actualites.each do |actualite| %>
+        <div class="col-xs-12 col-md-4 text-center">
+          <div class="card text-center">
+            <%= image_tag actualite.source, class: "img-rounded" %>
+            <h3><%= actualite.date %></h3>
+            <p><%= actualite.text %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+</div>

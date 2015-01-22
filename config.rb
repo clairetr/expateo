@@ -1,6 +1,7 @@
 ###
 # Compass
 ###
+activate :directory_indexes
 
 # Change Compass configuration
 # compass_config do |config|

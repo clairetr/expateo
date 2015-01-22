@@ -1,0 +1,26 @@
+.btn-medium {
+  font-family: Open Sans;
+  border: 1px solid $black;
+  color: $black;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 100;
+  opacity: 0.4;
+  text-decoration: none;
+  transition: opacity 0.3s ease, letter-spacing 0.3s ease;
+  &:hover {
+    text-decoration: none;
+    color: $black;
+    opacity: 0.9;
+  }
+  &:focus {
+    color: $black;
+    border-color: $black;
+    outline: none;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $black;
+    border-color: $black;
+  }
+}
