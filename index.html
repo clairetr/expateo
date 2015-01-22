@@ -35,18 +35,21 @@
 </a>            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                <img src="http://placehold.it/30x30" class="img-avatar" alt="">
+                <!-- <img src="http://placehold.it/30x30" class="img-avatar" alt=""> -->
                 Informations <span class="caret"></span>
               </a>
               <ul class="dropdown-menu" role="menu">
                 <li>
-                  <a href="equipe.html">L'équipe</a>
+                  <a href="equipe/">L'équipe</a>
                 </li>
                 <li>
-                  <a href="actualités.html">Actualités</a>
+                  <a href="functions/">Les fonctionnalités</a>
                 </li>
                 <li>
-                  <a href="mentions.html">Mentions Légales</a>
+                  <a href="actualites/">Actualités</a>
+                </li>
+                <li>
+                  <a href="mentions/">Mentions Légales</a>
                 </li>
               </ul>
             </li>
@@ -56,27 +59,35 @@
     </nav>
 
     <div id="banner">
-  <h1>EXPATEO</h1>
-  <p>Pour un départ tranquille</p>
-  <p>Simplifiez les démarches de vos expatriés</p>
-  <a href="#" class="btn btn-info">Essayez-nous</a>
+  <div class="video-container">
+    <video autoplay="autoplay" muted="muted" preload="auto" style="width: 1435px; height: 807.1875px; margin-top: -162.09375px; margin-left: 0px;">
+        <source src="videos/background.mp4" type="video/mp4">
+        <source src="videos/background.webm" type="video/webm">
+    </video>
+  </div>
+  <div class="catcher-container">
+    <h1>EXPATEO</h1>
+    <p>Pour un départ tranquille</p>
+    <p>Simplifiez les démarches de vos expatriés</p>
+    <a href="#" class="btn btn-warning">Essayez-nous</a>
+  </div>
 </div>
 
-<div class="bg-purple text-center padded" id="infos">
+<div class="bg-black text-center padded" id="infos">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-4">
-        <h2>Lister vos démarches</h2>
+        <h2><span>Lister vos démarches</span></h2>
         <p>Accompagnement pas à pas</p>
         <img src="images/dossier.svg" />
       </div>
       <div class="col-xs-12 col-sm-4">
-        <h2>Résilier vos contrats</h2>
+        <h2><span>Résilier vos contrats</span></h2>
         <p>Générateur et envoi de courriers recommandés</p>
         <img src="images/redactioncourrier.png" />
       </div>
       <div class="col-xs-12 col-sm-4">
-        <h2>Suivre vos résiliations</h2>
+        <h2><span>Suivre vos résiliations</span></h2>
         <p>Alertes, Rappels et calendrier</p>
         <img src="images/tache.png" />
       </div>
@@ -84,10 +95,43 @@
   </div>
 </div>
 
-<div class="text-center padded" id="contact">
+<div class="text-center padded container" id="contact">
   <h2>En savoir plus sur EXPATEO</h2>
   <p>Laissez-nous vos coordonnées et nous vous re-contacterons</p>
-  <form class="form-inline">
+  <form>
+    <div class="row">
+      <div class="col-xs-12 col-sm-3">
+          <div class="form-group">
+            <label for="exampleInputName2">Nom</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+          </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="form-group">
+          <label for="exampleInputEmail2">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="form-group">
+          <label for="exampleInputtel2">Téléphone</label>
+          <input type="text" class="form-control" id="exampleInputName2" placeholder="06 12 34 56 78">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3">
+        <div class="form-group">
+          <label for="exampleInputtel2">Entreprise</label>
+          <input type="text" class="form-control" id="societe" placeholder="Societe">
+        </div>
+      </div>
+    </div>
+    <button type="submit" class="btn-medium">Envoi</button>
+  </form>
+</div>
+
+
+
+  <!-- <form class="form-inline">
     <div class="form-group">
       <label for="exampleInputName2">Nom</label>
       <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
@@ -100,9 +144,9 @@
       <label for="exampleInputtel2">Téléphone</label>
       <input type="text" class="form-control" id="exampleInputName2" placeholder="06 12 34 56 78">
     </div>
-    <button type="submit" class="btn btn-primary">Envoi</button>
-  </form>
-</div>
+    <button type="submit" class="btn btn-warning">Envoi</button>
+  </form> -->
+
 
 <div id="map" style="width: 100%; height: 400px;"></div>
 
@@ -128,14 +172,17 @@
   </script>
 
 
+<script>
+
+
+</script>
 
     <div id="footer">
       <ul class="list-inline">
-        <li><a href="#">Conditions d'utilisation</a></li>
+        <li><a href="mentions/">Mentions légales</a></li>
         <li><a href="#">Confidentialité</a></li>
         <li><a href="#">Partenaires</a></li>
       </ul>
-      <p>Site en cours de développement</p>
     </div>
 
   </body>
