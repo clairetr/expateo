@@ -24,3 +24,39 @@
     border-color: $black;
   }
 }
+
+// btn.expat
+
+$border-radius: 3px;
+
+$border-bottom-initial: 3px;
+$border-bottom-hover: 2px;
+$border-bottom-active: 0px;
+
+.btn-expat {
+  position: relative;
+  background: $orange;
+  padding: 10px 20px;
+
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  border-radius: $border-radius;
+  border-bottom: $border-bottom-initial solid darken($orange, 20%);
+
+ &:hover {
+    top: $border-bottom-initial - $border-bottom-hover;
+    border-bottom: $border-bottom-hover solid darken($orange, 20%);
+  }
+
+  &:active {
+    top: $border-bottom-initial;
+    border-bottom: $border-bottom-active solid darken($orange, 20%);
+  }
+
+  &:hover, &:active, &:focus, &:visited {
+    text-decoration: none;
+    color: white;
+  }
+}
