@@ -12104,6 +12104,37 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 
 
+// navbar transition jQuery script
+$(window).scroll(function(e){
+  if ($(this).scrollTop() > 0) {
+    $(".navbar").removeClass("navbar-wagon").addClass("navbar-scrolled");
+  }
+  else {
+    $(".navbar").removeClass("navbar-scrolled").addClass("navbar-wagon");
+  }
+});
+// smooth scroll
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+// rajouter de la transition à tous les liens?
+
+// Set div height to exact window height onload
+// $(document).ready(function() {
+//   $(".smooth-scrollable").css("height", $(window).height());
+// });
 
 
 

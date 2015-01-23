@@ -8975,7 +8975,7 @@ h3 {
 
 /* line 42, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
-  background: white;
+  background: transparent;
   font-family: "Proximabold";
   border: none;
   font-weight: 400;
@@ -8989,7 +8989,7 @@ h3 {
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
   .navbar-wagon .navbar-nav > .open > a:focus {
-    color: #1A1A1A;
+    color: white;
     line-height: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -9006,7 +9006,7 @@ h3 {
   /* line 74, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
-    color: #1A1A1A;
+    color: white;
     padding-top: 10px;
     padding-bottom: 10px; }
   /* line 82, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
@@ -9062,15 +9062,134 @@ h3 {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 144, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
-  .navbar-brand img, .navbar-brand svg, .navbar-brand object {
+  /* line 145, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
 
-  /* line 147, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 149, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     display: block;
-    color: #1A1A1A;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0; } }
+/* -------------------------------------
+ * Colors & Fonts
+ * ------------------------------------- */
+/* -------------------------------------
+ * Box model
+ * ------------------------------------- */
+/* -------------------------------------
+ * Navbar button
+ * ------------------------------------- */
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+/* -------------------------------------
+ * SCSS code
+ * ------------------------------------- */
+/* line 39, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+.navbar-transparent-white {
+  background: rgba(255, 255, 255, 0.8); }
+
+/* line 42, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+.navbar-scrolled {
+  background: white;
+  font-family: "Proximabold";
+  border: none;
+  font-weight: 400;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 0 solid grey;
+  min-height: 0;
+  transition: background 0.4s ease; }
+  /* line 53, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-nav > li > a,
+  .navbar-scrolled .navbar-nav > .open > a,
+  .navbar-scrolled .navbar-nav > li > a:focus,
+  .navbar-scrolled .navbar-nav > .open > a:focus {
+    color: black;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  /* line 68, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-nav > li > a:hover,
+  .navbar-scrolled .navbar-nav > .open > a:hover {
+    color: #ED5A25;
+    background-color: transparent; }
+  /* line 74, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .navbar-brand:hover {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  /* line 82, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-nav > li > a.btn {
+    line-height: 40px;
+    padding: 0 10px;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: lightgrey;
+    font-size: 12px; }
+    /* line 91, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+    .navbar-scrolled .navbar-nav > li > a.btn:hover {
+      background-color: #868686; }
+  /* line 96, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-brand img, .navbar-scrolled .navbar-brand svg, .navbar-scrolled .navbar-brand object {
+    height: 50px;
+    padding: 0px; }
+  /* line 101, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .img-avatar {
+    border: 2px solid white;
+    box-shadow: 0 0 2px #c8c8c8;
+    height: 46px;
+    margin-right: 10px;
+    border-radius: 50%; }
+  /* line 109, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-toggle {
+    border-color: #dddddd;
+    width: 45px;
+    background: transparent; }
+  /* line 115, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-nav > li > .dropdown-menu {
+    border-radius: 0;
+    margin-top: 10px; }
+  /* line 120, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-nav > li > .dropdown-menu:before {
+    position: absolute;
+    background: white;
+    height: 10px;
+    width: 10px;
+    content: "\00a0";
+    display: block;
+    left: 50%;
+    margin-left: -5px;
+    top: -5px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+    z-index: -1; }
+
+/* -------------------------------------
+ * Navbar profile picture
+ * ------------------------------------- */
+@media screen and (max-width: 768px) {
+  /* line 144, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-brand img, .navbar-scrolled .navbar-brand svg {
+    height: 50px; }
+
+  /* line 148, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .navbar-brand:hover {
+    display: block;
+    color: black;
     padding-top: 0;
     padding-bottom: 0; } }
 /* -------------------------------------
@@ -9113,6 +9232,29 @@ h3 {
     color: #222222;
     border-color: #222222; }
 
+/* line 36, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+.btn-expat {
+  position: relative;
+  background: #ED5A25;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 3px;
+  border-bottom: 3px solid #9f340d; }
+  /* line 48, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  .btn-expat:hover {
+    top: 1px;
+    border-bottom: 2px solid #9f340d; }
+  /* line 53, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  .btn-expat:active {
+    top: 3px;
+    border-bottom: 0px solid #9f340d; }
+  /* line 58, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  .btn-expat:hover, .btn-expat:active, .btn-expat:focus, .btn-expat:visited {
+    text-decoration: none;
+    color: white; }
+
 /* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_card.css.scss */
 .card {
   background: white;
@@ -9132,24 +9274,35 @@ h3 {
 
 /* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
 #banner {
-  background: black;
+  background: #222222;
   color: white;
   height: 600px;
   padding-top: 100px;
   padding-left: 50px;
-  overflow: hidden; }
-  /* line 9, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  overflow: hidden;
+  position: relative; }
+  /* line 10, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 70px;
     text-shadow: 1px 1px 2px #727272; }
-  /* line 13, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  /* line 14, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
     font-weight: 300; }
+  /* line 18, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  #banner .scroll-btn {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    text-align: center;
+    left: 50%;
+    margin-left: -50px; }
 
 /* line 30, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
-.video-container {
-  opacity: 0.4;
+#video-container {
+  opacity: 0.6;
   height: 600px;
   left: 0;
   position: absolute;
@@ -9157,17 +9310,28 @@ h3 {
   width: 100%;
   top: 0; }
   /* line 38, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
-  .video-container video {
+  #video-container video {
     position: absolute;
     left: 0; }
 
 /* line 44, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
-.catcher-container {
+#catcher-container {
   position: relative;
   z-index: 1; }
-  /* line 47, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
-  .catcher-container a {
-    margin-top: 25px; }
+
+/* line 52, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+#infos {
+  position: relative; }
+
+/* line 56, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+#infos a {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  bottom: 20px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px; }
 
 /*
 ==============================================
