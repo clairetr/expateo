@@ -1187,11 +1187,11 @@ textarea {
 
 /* line 48, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #469AE0;
+  color: #2C3E50;
   text-decoration: none; }
   /* line 52, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: #1f74ba;
+    color: #11181f;
     text-decoration: underline; }
   /* line 58, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -1412,11 +1412,11 @@ mark,
 
 /* line 5, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #469AE0; }
+  color: #2C3E50; }
 
 /* line 8, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover {
-  color: #2381d0; }
+  color: #1a242f; }
 
 /* line 5, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
@@ -1456,11 +1456,11 @@ a.text-danger:hover {
 
 /* line 5, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #469AE0; }
+  background-color: #2C3E50; }
 
 /* line 8, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover {
-  background-color: #2381d0; }
+  background-color: #1a242f; }
 
 /* line 5, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
@@ -3405,23 +3405,23 @@ select[multiple].input-lg,
 /* line 63, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #469AE0;
-  border-color: #308edc; }
+  background-color: #2C3E50;
+  border-color: #233140; }
   /* line 11, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #2381d0;
-    border-color: #1e6eb2; }
+    background-color: #1a242f;
+    border-color: #0d1318; }
   /* line 21, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   /* line 29, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-    background-color: #469AE0;
-    border-color: #308edc; }
+    background-color: #2C3E50;
+    border-color: #233140; }
   /* line 40, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary .badge {
-    color: #469AE0;
+    color: #2C3E50;
     background-color: #fff; }
 
 /* line 67, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3514,7 +3514,7 @@ select[multiple].input-lg,
 
 /* line 88, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #469AE0;
+  color: #2C3E50;
   font-weight: normal;
   border-radius: 0; }
   /* line 93, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3527,7 +3527,7 @@ select[multiple].input-lg,
     border-color: transparent; }
   /* line 107, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: #1f74ba;
+    color: #11181f;
     text-decoration: underline;
     background-color: transparent; }
   /* line 115, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3681,7 +3681,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #469AE0; }
+  background-color: #2C3E50; }
 
 /* line 101, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4115,7 +4115,7 @@ tbody.collapse.in {
   /* line 46, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: white;
-    border-color: #469AE0; }
+    border-color: #2C3E50; }
   /* line 59, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -4162,7 +4162,7 @@ tbody.collapse.in {
   /* line 131, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #469AE0; }
+    background-color: #2C3E50; }
 
 /* line 144, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
@@ -4779,7 +4779,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.4;
       text-decoration: none;
-      color: #469AE0;
+      color: #2C3E50;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -4798,7 +4798,7 @@ tbody.collapse.in {
   .pagination > li > a:hover, .pagination > li > a:focus,
   .pagination > li > span:hover,
   .pagination > li > span:focus {
-    color: #1f74ba;
+    color: #11181f;
     background-color: white;
     border-color: #ddd; }
   /* line 51, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_pagination.scss */
@@ -4808,8 +4808,8 @@ tbody.collapse.in {
   .pagination > .active > span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #469AE0;
-    border-color: #469AE0;
+    background-color: #2C3E50;
+    border-color: #2C3E50;
     cursor: default; }
   /* line 63, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .disabled > span,
@@ -4936,10 +4936,10 @@ a.label:hover, a.label:focus {
 
 /* line 48, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #469AE0; }
+  background-color: #2C3E50; }
   /* line 7, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: #2381d0; }
+    background-color: #1a242f; }
 
 /* line 52, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
@@ -4996,7 +4996,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   /* line 39, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #469AE0;
+    color: #2C3E50;
     background-color: #fff; }
   /* line 44, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item > .badge {
@@ -5080,7 +5080,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #469AE0; }
+  border-color: #2C3E50; }
 
 /* line 9, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
@@ -5192,7 +5192,7 @@ a.thumbnail.active {
   line-height: 22px;
   color: #fff;
   text-align: center;
-  background-color: #469AE0;
+  background-color: #2C3E50;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5342,8 +5342,8 @@ a.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #469AE0;
-  border-color: #469AE0; }
+  background-color: #2C3E50;
+  border-color: #2C3E50; }
   /* line 90, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
@@ -5355,7 +5355,7 @@ a.list-group-item {
     color: inherit; }
   /* line 95, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-    color: #f5f9fd; }
+    color: #8aa4be; }
 
 /* line 4, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
@@ -5716,22 +5716,22 @@ a.list-group-item-danger {
 
 /* line 247, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #469AE0; }
+  border-color: #2C3E50; }
   /* line 6, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-heading {
     color: #fff;
-    background-color: #469AE0;
-    border-color: #469AE0; }
+    background-color: #2C3E50;
+    border-color: #2C3E50; }
     /* line 11, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #469AE0; }
+      border-top-color: #2C3E50; }
     /* line 14, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading .badge {
-      color: #469AE0;
+      color: #2C3E50;
       background-color: #fff; }
   /* line 20, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #469AE0; }
+    border-bottom-color: #2C3E50; }
 
 /* line 250, /Users/clairepinatel/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
@@ -8914,24 +8914,24 @@ button.close {
 /* -------------------------------------
  * Base elements style (h1, h2, p, a, ul..)
  * ------------------------------------- */
-/* line 9, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_base.css.scss */
+/* line 9, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_base.css.scss */
 h2 {
   font-size: 30px;
   font-family: "Proxima";
   font-weight: regular;
   margin-bottom: 25px; }
 
-/* line 15, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_base.css.scss */
+/* line 15, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_base.css.scss */
 h2 span {
   border-bottom: solid 2px #ED5A25; }
 
-/* line 19, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_base.css.scss */
+/* line 19, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_base.css.scss */
 h3 {
   font-size: 20px;
   font-family: "Proxima";
   font-weight: regular; }
 
-/* line 2, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+/* line 2, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_footer.css.scss */
 #footer {
   background-color: #f4f4f4;
   border-top: solid 1px white;
@@ -8940,17 +8940,17 @@ h3 {
   padding-top: 40px;
   font-size: 15px;
   opacity: 1px; }
-  /* line 11, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+  /* line 11, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_footer.css.scss */
   #footer a {
     text-decoration: none;
     transition: letter-spacing 0,2s ease;
     color: #494949;
     font-weight: 300; }
-  /* line 17, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+  /* line 17, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_footer.css.scss */
   #footer a:hover {
     color: #6452BD;
     letter-spacing: 1px; }
-  /* line 22, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_footer.css.scss */
+  /* line 22, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_footer.css.scss */
   #footer li {
     width: 300px; }
 
@@ -8969,11 +8969,11 @@ h3 {
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 39, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+/* line 39, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
 .navbar-transparent-white {
   background: rgba(255, 255, 255, 0.8); }
 
-/* line 42, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+/* line 42, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
 .navbar-wagon {
   background: transparent;
   font-family: "Proximabold";
@@ -8984,7 +8984,7 @@ h3 {
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 53, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 53, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a,
   .navbar-wagon .navbar-nav > .open > a,
   .navbar-wagon .navbar-nav > li > a:focus,
@@ -8998,18 +8998,18 @@ h3 {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 68, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 68, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
     color: #ED5A25;
     background-color: transparent; }
-  /* line 74, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 74, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px; }
-  /* line 82, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 82, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9019,30 +9019,30 @@ h3 {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 91, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+    /* line 91, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 96, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 96, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg, .navbar-wagon .navbar-brand object {
     height: 50px;
     padding: 0px; }
-  /* line 101, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 101, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 109, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 109, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 115, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 115, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 120, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 120, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9062,11 +9062,11 @@ h3 {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 145, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 145, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
 
-  /* line 149, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar.css.scss */
+  /* line 149, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
   .navbar-wagon .navbar-brand:hover {
     display: block;
@@ -9088,11 +9088,11 @@ h3 {
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
-/* line 39, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+/* line 39, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
 .navbar-transparent-white {
   background: rgba(255, 255, 255, 0.8); }
 
-/* line 42, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+/* line 42, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
 .navbar-scrolled {
   background: white;
   font-family: "Proximabold";
@@ -9103,7 +9103,7 @@ h3 {
   border-bottom: 0 solid grey;
   min-height: 0;
   transition: background 0.4s ease; }
-  /* line 53, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 53, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-nav > li > a,
   .navbar-scrolled .navbar-nav > .open > a,
   .navbar-scrolled .navbar-nav > li > a:focus,
@@ -9117,18 +9117,18 @@ h3 {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-  /* line 68, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 68, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-nav > li > a:hover,
   .navbar-scrolled .navbar-nav > .open > a:hover {
     color: #ED5A25;
     background-color: transparent; }
-  /* line 74, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 74, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-brand,
   .navbar-scrolled .navbar-brand:hover {
     color: black;
     padding-top: 10px;
     padding-bottom: 10px; }
-  /* line 82, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 82, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9138,30 +9138,30 @@ h3 {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 91, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+    /* line 91, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
     .navbar-scrolled .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 96, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 96, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-brand img, .navbar-scrolled .navbar-brand svg, .navbar-scrolled .navbar-brand object {
     height: 50px;
     padding: 0px; }
-  /* line 101, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 101, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 109, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 109, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 115, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 115, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 120, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 120, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9181,11 +9181,11 @@ h3 {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 144, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 144, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-brand img, .navbar-scrolled .navbar-brand svg {
     height: 50px; }
 
-  /* line 148, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_navbar_scrolled.css.scss */
+  /* line 148, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_navbar_scrolled.css.scss */
   .navbar-scrolled .navbar-brand,
   .navbar-scrolled .navbar-brand:hover {
     display: block;
@@ -9195,17 +9195,26 @@ h3 {
 /* -------------------------------------
  * Utilities classes
  * ------------------------------------- */
-/* line 5, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_utilities.css.scss */
+/* line 5, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_utilities.css.scss */
 .padded {
   padding-top: 8em;
   padding-bottom: 8em; }
 
-/* line 10, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/layout/_utilities.css.scss */
+/* line 10, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_utilities.css.scss */
 .bg-black {
   background-color: #222222;
   color: white; }
 
-/* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+/* line 15, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/layout/_utilities.css.scss */
+.padded-side {
+  padding-left: 2em;
+  padding-right: 2em; }
+
+/* line 1, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_bg.css.scss */
+.bg-blue {
+  background-color: #2C3E50; }
+
+/* line 1, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
 .btn-medium {
   font-family: Open Sans;
   border: 1px solid #222222;
@@ -9216,23 +9225,23 @@ h3 {
   opacity: 0.4;
   text-decoration: none;
   transition: opacity 0.3s ease, letter-spacing 0.3s ease; }
-  /* line 11, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  /* line 11, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
   .btn-medium:hover {
     text-decoration: none;
     color: #222222;
     opacity: 0.9; }
-  /* line 16, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  /* line 16, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
   .btn-medium:focus {
     color: #222222;
     border-color: #222222;
     outline: none;
     text-decoration: none; }
-  /* line 22, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  /* line 22, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
   .btn-medium:visited {
     color: #222222;
     border-color: #222222; }
 
-/* line 36, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+/* line 36, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
 .btn-expat {
   position: relative;
   background: #ED5A25;
@@ -9242,37 +9251,40 @@ h3 {
   font-weight: bold;
   border-radius: 3px;
   border-bottom: 3px solid #9f340d; }
-  /* line 48, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  /* line 48, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
   .btn-expat:hover {
     top: 1px;
     border-bottom: 2px solid #9f340d; }
-  /* line 53, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  /* line 53, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
   .btn-expat:active {
     top: 3px;
     border-bottom: 0px solid #9f340d; }
-  /* line 58, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_button.css.scss */
+  /* line 58, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_button.css.scss */
   .btn-expat:hover, .btn-expat:active, .btn-expat:focus, .btn-expat:visited {
     text-decoration: none;
     color: white; }
 
-/* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/components/_card.css.scss */
+/* line 1, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/components/_card.css.scss */
 .card {
   background: white;
   box-shadow: 1px 1px 2px silver;
   color: #222222;
-  border-radius: 2px; }
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 5px; }
 
-/* line 2, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_equipe.css.scss */
+/* line 2, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_equipe.css.scss */
 #team img {
   width: 30%;
   min-width: 200px; }
-/* line 6, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_equipe.css.scss */
+/* line 6, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_equipe.css.scss */
 #team p {
   padding-top: 20px;
   font-weight: 300;
   font-size: 1,5em; }
 
-/* line 1, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+/* line 1, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
 #banner {
   background: #222222;
   color: white;
@@ -9281,18 +9293,18 @@ h3 {
   padding-left: 50px;
   overflow: hidden;
   position: relative; }
-  /* line 10, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  /* line 10, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
   #banner h1 {
     font-size: 70px;
     text-shadow: 1px 1px 2px #727272; }
-  /* line 14, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  /* line 14, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
   #banner p {
     font-size: 25px;
     font-weight: 300; }
-  /* line 18, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  /* line 18, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
   #banner .scroll-btn {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
     bottom: 20px;
     width: 100px;
@@ -9300,7 +9312,7 @@ h3 {
     left: 50%;
     margin-left: -50px; }
 
-/* line 30, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+/* line 30, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
 #video-container {
   opacity: 0.6;
   height: 600px;
@@ -9309,29 +9321,39 @@ h3 {
   overflow: hidden;
   width: 100%;
   top: 0; }
-  /* line 38, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+  /* line 38, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
   #video-container video {
     position: absolute;
     left: 0; }
 
-/* line 44, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+/* line 44, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
 #catcher-container {
   position: relative;
   z-index: 1; }
 
-/* line 52, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+/* line 52, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
 #infos {
   position: relative; }
 
-/* line 56, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/pages/_home.css.scss */
+/* line 56, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
 #infos a {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   position: absolute;
   bottom: 20px;
   width: 100px;
   left: 50%;
   margin-left: -50px; }
+
+/* line 66, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
+#infos ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0; }
+
+/* line 72, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/pages/_home.css.scss */
+#infos ul li {
+  margin-bottom: 15px; }
 
 /*
 ==============================================
@@ -9351,7 +9373,7 @@ justin@justinaguilar.com
 slideDown
 ==============================================
 */
-/* line 23, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 23, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideDown {
   animation-name: slideDown;
   -webkit-animation-name: slideDown;
@@ -9392,7 +9414,7 @@ slideDown
 slideUp
 ==============================================
 */
-/* line 85, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 85, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideUp {
   animation-name: slideUp;
   -webkit-animation-name: slideUp;
@@ -9433,7 +9455,7 @@ slideUp
 slideLeft
 ==============================================
 */
-/* line 147, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 147, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideLeft {
   animation-name: slideLeft;
   -webkit-animation-name: slideLeft;
@@ -9474,7 +9496,7 @@ slideLeft
 slideRight
 ==============================================
 */
-/* line 209, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 209, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideRight {
   animation-name: slideRight;
   -webkit-animation-name: slideRight;
@@ -9515,7 +9537,7 @@ slideRight
 slideExpandUp
 ==============================================
 */
-/* line 271, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 271, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .slideExpandUp {
   animation-name: slideExpandUp;
   -webkit-animation-name: slideExpandUp;
@@ -9568,7 +9590,7 @@ slideExpandUp
 expandUp
 ==============================================
 */
-/* line 351, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 351, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandUp {
   animation-name: expandUp;
   -webkit-animation-name: expandUp;
@@ -9601,7 +9623,7 @@ expandUp
 fadeIn
 ==============================================
 */
-/* line 400, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 400, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .fadeIn {
   animation-name: fadeIn;
   -webkit-animation-name: fadeIn;
@@ -9640,7 +9662,7 @@ fadeIn
 expandOpen
 ==============================================
 */
-/* line 456, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 456, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .expandOpen {
   animation-name: expandOpen;
   -webkit-animation-name: expandOpen;
@@ -9677,7 +9699,7 @@ expandOpen
 bigEntrance
 ==============================================
 */
-/* line 512, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 512, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bigEntrance {
   animation-name: bigEntrance;
   -webkit-animation-name: bigEntrance;
@@ -9736,7 +9758,7 @@ bigEntrance
 hatch
 ==============================================
 */
-/* line 593, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 593, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .hatch {
   animation-name: hatch;
   -webkit-animation-name: hatch;
@@ -9784,7 +9806,7 @@ hatch
 bounce
 ==============================================
 */
-/* line 666, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 666, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .bounce {
   animation-name: bounce;
   -webkit-animation-name: bounce;
@@ -9827,7 +9849,7 @@ bounce
 pulse
 ==============================================
 */
-/* line 730, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 730, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pulse {
   animation-name: pulse;
   -webkit-animation-name: pulse;
@@ -9861,7 +9883,7 @@ pulse
 floating
 ==============================================
 */
-/* line 777, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 777, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .floating {
   animation-name: floating;
   -webkit-animation-name: floating;
@@ -9889,7 +9911,7 @@ floating
 tossing
 ==============================================
 */
-/* line 818, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 818, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .tossing {
   animation-name: tossing;
   -webkit-animation-name: tossing;
@@ -9917,7 +9939,7 @@ tossing
 pullUp
 ==============================================
 */
-/* line 859, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 859, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullUp {
   animation-name: pullUp;
   -webkit-animation-name: pullUp;
@@ -9964,7 +9986,7 @@ pullUp
 pullDown
 ==============================================
 */
-/* line 928, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 928, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .pullDown {
   animation-name: pullDown;
   -webkit-animation-name: pullDown;
@@ -10011,7 +10033,7 @@ pullDown
 stretchLeft
 ==============================================
 */
-/* line 997, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 997, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchLeft {
   animation-name: stretchLeft;
   -webkit-animation-name: stretchLeft;
@@ -10058,7 +10080,7 @@ stretchLeft
 stretchRight
 ==============================================
 */
-/* line 1066, /Users/clairepinatel/Documents/code/frontend/expateo/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
+/* line 1066, /Users/clairepinatel/Documents/code/expateoV2/source/stylesheets/vendor/_animation_cheat_sheet.css.scss */
 .stretchRight {
   animation-name: stretchRight;
   -webkit-animation-name: stretchRight;
