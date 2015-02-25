@@ -7,10 +7,10 @@ title: Fonctionnalités Expateo
   <h2><span>Les fonctionnalités de l'application</span></h2>
 
   <div class="container">
-    <div class="row">
+    <div class="row" id="function-card">
       <% data.functions.each do |function| %>
-        <div class="col-xs-12 col-md-4 text-center">
-          <div class="card text-center">
+        <div class="col-xs-12 col-md-4 col-md-height">
+          <div class="card text-center" id="function-card">
             <%= image_tag function.picture, class: "img-rounded" %>
             <h3><%= function.name %></h3>
             <p><%= function.description %></p>
