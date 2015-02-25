@@ -17,7 +17,7 @@
   }
   .scroll-btn {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
     bottom: 20px;
     width: 100px;
@@ -55,7 +55,7 @@
 
 #infos a {
   color: white;
-  font-size: 50px;
+  font-size: 70px;
   position: absolute;
   bottom: 20px;
   width: 100px;
@@ -63,4 +63,13 @@
   margin-left: -50px;
 }
 
+#infos ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#infos ul li {
+  margin-bottom: 15px;
+  }
 
